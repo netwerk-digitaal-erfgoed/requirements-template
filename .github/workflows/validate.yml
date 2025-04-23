@@ -1,0 +1,10 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec-validate.yml@main
