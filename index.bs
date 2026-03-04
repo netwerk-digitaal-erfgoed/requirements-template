@@ -3,7 +3,7 @@ Title: Your Spec Title
 Shortname: your-spec
 Level: 1
 Status: LS
-!Version: <a href="#v0.0.0">0.0.0</a>
+!Version: 0.0.0
 Markup Shorthands: css yes, markdown yes
 URL: http://example.com/url-this-spec-will-live-at
 Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
