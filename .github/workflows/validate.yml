@@ -6,5 +6,5 @@ on:
       - main
 
 jobs:
-  deploy:
+  validate:
     uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec.yml@main
