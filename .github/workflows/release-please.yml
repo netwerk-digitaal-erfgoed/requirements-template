@@ -1,0 +1,17 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+      - release-please--branches--main**
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/release-please.yml@main
+    secrets:
+      token: ${{ secrets.RELEASE_PLEASE_TOKEN }}

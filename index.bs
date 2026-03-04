@@ -3,6 +3,7 @@ Title: Your Spec Title
 Shortname: your-spec
 Level: 1
 Status: LS
+!Version: 0.0.0
 Markup Shorthands: css yes, markdown yes
 URL: http://example.com/url-this-spec-will-live-at
 Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
@@ -13,5 +14,13 @@ Introduction {#intro}
 =====================
 
 Introduction here.
+
+Changes {#changes}
+=====================
+
+This section lists notable changes to this specification.
+
+<!-- CHANGELOG-START -->
+<!-- CHANGELOG-END -->
 
 Test build: d929bb9
