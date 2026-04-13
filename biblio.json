@@ -12,6 +12,14 @@
       "Bob Coret"
     ]
   },
+  "nde-cms": {
+    "href": "https://docs.nde.nl/requirements-collection-management-systems/",
+    "title": "Requirements for Collection Management Systems",
+    "authors": [
+      "Gertjan Filarski",
+      "Enno Meijers"
+    ]
+  },
   "nde-dataset-register-implementations": {
     "href": "https://docs.nde.nl/requirements-dataset-register-implementations/",
     "title": "Requirements for Dataset Register Implementations",
