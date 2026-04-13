@@ -3,7 +3,7 @@ Title: Your Spec Title
 Shortname: your-spec
 Level: 1
 Status: LS
-!Version: 0.0.0
+!Version: <a href="#v0.1.0">0.1.0</a>
 Markup Shorthands: css yes, markdown yes
 URL: http://example.com/url-this-spec-will-live-at
 Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
@@ -21,6 +21,14 @@ Changes {#changes}
 This section lists notable changes to this specification.
 
 <!-- CHANGELOG-START -->
+Version 0.1.0 (2026-04-13) {#v0.1.0}
+----------
+
+- Add biblio entries ([3aa888c](https://github.com/netwerk-digitaal-erfgoed/requirements-template/commit/3aa888c2902fc2e07c234c209ff5b326e07e4df5)).
+- Add NDE-CMS biblio entry ([faec7f3](https://github.com/netwerk-digitaal-erfgoed/requirements-template/commit/faec7f3e341d0e17c36eb0096c33a0576e3a4a55)).
+- Add Release Please configuration ([d4ae456](https://github.com/netwerk-digitaal-erfgoed/requirements-template/commit/d4ae456d814674fd8e689dd3dc58a450d4761d00)).
+- Add Release Please workflow and changelog scaffolding ([9f93272](https://github.com/netwerk-digitaal-erfgoed/requirements-template/commit/9f93272e1a69679b5ea726557127d2aea9e2412b)).
+- Document versioning and changelog sync in README ([027b00a](https://github.com/netwerk-digitaal-erfgoed/requirements-template/commit/027b00a9cf4a0622ecf179830517b5bc71d6a924)).
 <!-- CHANGELOG-END -->
 
 Test build: d929bb9
