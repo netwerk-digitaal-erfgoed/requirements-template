@@ -7,4 +7,4 @@ on:
 
 jobs:
   validate:
-    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec.yml@eb836fcaa14cb447f4775dae96791eed5f1c5840
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec.yml@b2bd67265cf7576dfc334d2e1a046cef8aa576f4
