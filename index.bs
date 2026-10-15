@@ -8,7 +8,10 @@ Markup Shorthands: css yes, markdown yes
 URL: http://example.com/url-this-spec-will-live-at
 Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
 Abstract: A short description of your spec, one or two sentences.
+Local Boilerplate: logo yes
 </pre>
+
+<pre class=include>path: nde.include</pre>
 
 Introduction {#intro}
 =====================

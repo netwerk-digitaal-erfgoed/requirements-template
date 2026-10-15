@@ -20,7 +20,13 @@ Requirements are written in Markdown and transformed to HTML using the
 
 ## Generate HTML locally
 
-To view HTML output locally (using a [Docker container](https://github.com/netwerk-digitaal-erfgoed/bikeshed-docker)),
+The build, the NDE logo and the house style come from
+[spec-boilerplate](https://github.com/netwerk-digitaal-erfgoed/workflows/tree/main/spec-boilerplate),
+at the version of the shared workflow that `.github/workflows` calls. `make spec` downloads that version once,
+so a local build matches CI. Dependabot proposes each new version as a pull request, which merges itself once the
+spec builds with it.
+
+To view HTML output locally (using Node.js and a [Docker container](https://github.com/netwerk-digitaal-erfgoed/bikeshed-docker)),
 run:
 
 ```bash
