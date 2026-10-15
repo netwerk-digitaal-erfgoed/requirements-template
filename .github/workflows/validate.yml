@@ -13,20 +13,7 @@ jobs:
   # the spec builds with them. An update that breaks the build stays open.
   auto-merge:
     needs: validate
-    if: github.event.pull_request.user.login == 'dependabot[bot]'
-    runs-on: ubuntu-latest
-    permissions: {}
-    steps:
-      # The app’s token, unlike the default one, lets the merge start the release workflow.
-      - name: Generate app token
-        id: app-token
-        uses: actions/create-github-app-token@v3
-        with:
-          app-id: ${{ secrets.GH_APP_ID }}
-          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-
-      - name: Merge the pull request
-        run: gh pr merge --squash "$PR_URL"
-        env:
-          PR_URL: ${{ github.event.pull_request.html_url }}
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/dependabot-auto-merge.yml@0ca5604dd12f13477bb73b83da3f01419ecc141a
+    with:
+      merge-immediately: true
+    secrets: inherit
