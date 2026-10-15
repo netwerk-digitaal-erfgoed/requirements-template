@@ -7,6 +7,6 @@ on:
 
 jobs:
   publish:
-    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec.yml@66ba476b4622833548e2203a56996cd20a9cdd7d
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/spec.yml@v1.1.0
     with:
       publish: true
