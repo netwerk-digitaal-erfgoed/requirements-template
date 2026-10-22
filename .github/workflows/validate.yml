@@ -13,5 +13,5 @@ jobs:
   # the spec builds with them. An update that breaks the build stays open.
   auto-merge:
     needs: validate
-    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/dependabot-auto-merge.yml@v1.1.0
+    uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/dependabot-auto-merge.yml@v1.2.2
     secrets: inherit
