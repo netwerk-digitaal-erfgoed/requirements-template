@@ -50,6 +50,13 @@ make watch
 ## Versioning
 
 Requirements are versioned using [release-please](https://github.com/googleapis/release-please).
+A version lets implementers state which requirements they conform to, and the changelog shows them what changed
+between versions. The spec is published only when a version is released, so the published spec is always a finished
+version.
+
+Only the specs created from this template are versioned, not the template itself: a new spec starts as a copy of
+the template, so the template’s own version and changelog would end up in every new spec.
+
 Use [Conventional Commits](https://www.conventionalcommits.org/) in your commit messages to trigger version bumps:
 
 - `feat:` bumps the minor version (e.g. 1.0 → 1.1)

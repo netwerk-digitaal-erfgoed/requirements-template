@@ -8,5 +8,7 @@ on:
 
 jobs:
   release-please:
+    # Version the specs created from this template, not the template itself.
+    if: ${{ !github.event.repository.is_template }}
     uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/release-please.yml@main
     secrets: inherit
