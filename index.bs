@@ -25,5 +25,3 @@ This section lists notable changes to this specification.
 
 <!-- CHANGELOG-START -->
 <!-- CHANGELOG-END -->
-
-Test build: d929bb9
